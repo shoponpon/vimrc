@@ -17,3 +17,11 @@ set whichwrap=b,s,[,],<,>
 colorscheme badwolf
 syntax on
 
+nnoremap sn gt
+nnoremap sp gT
+nnoremap ss :<C-u>sp<CR>
+nnoremap sv :<C-u>vs<CR>
+nnoremap s_ <C-w>j
+nnoremap s[ <C-w>k
+nnoremap s] <C-w>l
+nnoremap s: <C-w>h
